@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ! fontawsome cnd -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ! boostrap css cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center text-secondary fw-bold">TODO LİST</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title bg-body-secondary p-3 my-2 border border-1">Görev Girme Bölümü</h5>
+                <input id="searchInput" placeholder="Görev giriniz..." type="text" class="w-100 p-2 my-2 raunded-2 border-1">
+                <button id="btnEkle" type="button" class="btn btn-primary">Ekle</button>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title bg-body-secondary p-3 my-2 border border-1">Yapılacaklar</h5>
+                <input id="searchFilter" type="text" class="w-100 p-2 my-2 raunded-2 border-1" placeholder="Görev arayınız" >
+                <ul id="todoListesi" class="border border-1 p-3">
+                    <!-- <li class="list-item list-unstyled border border-bottom p-2 mb-2">Görev-1
+                        <i class="fa-regular fa-circle-xmark float-end mt-1"></i>
+                    </li> -->
+                </ul>
+                <button id="btnTemizle" class="btn btn-danger " >Temizle</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ! boostrap js cdn -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- ! external js -->
+<script src="script.js"></script>
+</body>
+</html>
